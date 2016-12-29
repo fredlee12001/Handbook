@@ -12,7 +12,7 @@ mbed OS lets you write applications that run on embedded devices, by providing t
 
 Your application code - written in C++ - uses the *application programing interfaces* (APIs) presented by mbed OS to receive information from the hardware and send instructions to it. This means that a lot of the challenges in getting started with microcontrollers or integrating large amounts of software is already taken care of. 
 
-### Where to start
+##### Where to start
 
 <span class="tips">If you're working on Windows, you might need to [install a serial driver](getting_started/what_need.md#windows-serial-driver).</span>
 
@@ -20,19 +20,19 @@ The easiest way to work with mbed OS is using one of our development tools. We'v
 
 When you know how to build an existing application, it's time to learn [how to write your own applications](APIs/intro.md).
 
-### Development tools
+##### Development tools
 
 * Our offline development tool is the [mbed CLI](dev_tools/cli.md), a command line tool. This requires having a toolchain installed on your computer. 
 * The [mbed Online Compiler](dev_tools/online_comp.md) lets you write and build applications using just a web browser and USB connection.
 * If you're working with third party tools, we have [exporting instructions for the most popular ones](dev_tools/third_party.md).
 
-### Communicating with and monitoring your board
+##### Communicating with and monitoring your board
 
 You can monitor and control an mbed board [to help you debug and test your applications](getting_started/mbed_interface.md).
 
 <span class="tips">**Tip:** You can learn more about debugging [here](advanced/debugging.md).</span>
 
-### How to continue
+##### How to continue
 
 When you've started writing applications using your selected development tool:
 
